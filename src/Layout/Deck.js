@@ -101,7 +101,7 @@ function Deck() {
               className='btn btn-danger'
               onClick={() => deleteHandler(deckId)}
             >
-              <i className='fas fa-trash'></i>
+              <i className='fas fa-trash'></i> Delete
             </button>
           </div>
         </div>

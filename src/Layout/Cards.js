@@ -33,7 +33,7 @@ function Cards({ cards = [] }) {
                 className='btn btn-danger m-3'
                 onClick={() => deleteCardHandler(card.id)}
               >
-                <i className='fas fa-trash'></i>
+                <i className='fas fa-trash'></i> Delete
               </button>
             </div>
           </div>
